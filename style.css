@@ -892,7 +892,7 @@ footer li a:hover {
   }
 
   .section-3 {
-    padding: 60px 0;
+    padding: 60px 0 40px;
   }
 
   .latest-events-row {
@@ -1037,16 +1037,18 @@ footer li a:hover {
   .hero {
     background-position: 59% center;
   }
-.navbar-brand {
-  gap: 5px;
-  font-size: 28px;
-}
+  .navbar-brand {
+    gap: 5px;
+    font-size: 28px;
+  }
   .hero-container {
     padding-inline: 16px;
   }
-
+  .hero {
+    min-height: auto;
+  }
   .hero-content {
-    padding-top: 50px;
+    padding: 40px 16px;
   }
 
   .part {
@@ -1076,7 +1078,7 @@ footer li a:hover {
   }
 
   .section-1 {
-    padding: 64px 0 90px;
+    padding: 40px 0;
   }
 
   .section-1::after {
@@ -1136,9 +1138,11 @@ footer li a:hover {
     margin-left: 8px;
   }
   .section-2 {
-    padding: 45px 20px;
+    padding: 40px 0;
   }
-
+  .latest-text {
+    padding-top: 0;
+  }
   .section-2 h2 {
     font-size: 24px;
   }
@@ -1151,12 +1155,14 @@ footer li a:hover {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px 0;
   }
-
+  .section-3 {
+    padding: 40px 0;
+  }
   .stat-item:nth-child(2) {
     border-right: 0;
   }
   .footer {
-    padding: 55px 0 28px;
+    padding: 40px 0;
   }
 
   .footer-logo {
@@ -1195,12 +1201,12 @@ footer li a:hover {
     font-size: 13px;
   }
 }
+
 @media (max-width: 360px) {
   .form-grid {
     grid-template-columns: 1fr;
     gap: 0;
   }
-
   .latest-text h2,
   .form-section-3 h2 {
     font-size: 26px;
@@ -1235,11 +1241,6 @@ footer li a:hover {
 
   .hero-container {
     padding-inline: 12px;
-  }
-
-  .hero-content {
-    padding-top: 36px;
-    padding-bottom: 55px;
   }
 
   .hero h1 {
@@ -1300,10 +1301,6 @@ footer li a:hover {
     font-size: 15px;
   }
 
-  .section-1 {
-    padding: 52px 0 70px;
-  }
-
   .section-1-media {
     width: 100%;
   }
@@ -1356,10 +1353,6 @@ footer li a:hover {
     line-height: 1.5;
   }
 
-  .section-2 {
-    padding: 38px 12px;
-  }
-
   .section-2 h2 {
     font-size: 22px;
   }
@@ -1371,10 +1364,6 @@ footer li a:hover {
 
   .stat-item {
     padding: 0 8px;
-  }
-
-  .section-3 {
-    padding: 48px 0;
   }
 
   .latest-text h2,
