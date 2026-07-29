@@ -365,7 +365,10 @@ body {
 .lines {
   width: 185px;
   height: 8px;
-  margin-bottom: 24px;
+  margin-bottom: 9px;
+}
+.line-top {
+  margin-bottom: 21px;
 }
 
 .lines span:first-child {
@@ -387,12 +390,11 @@ body {
 }
 
 .section-1-content-wrap {
-  flex: 0 1 550px;
+  flex: 0 1 680px;
   min-width: 0;
 }
 
 .section-1-copy {
-  max-width: 633px;
   margin-bottom: 46px;
   font-family: "Poppins", sans-serif;
   color: #000000;
