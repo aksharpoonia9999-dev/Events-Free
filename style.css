@@ -914,7 +914,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 14px;
-  line-height: 100%;
+  line-height: 150%;
   letter-spacing: 0%;
 }
 
@@ -1135,10 +1135,6 @@ footer li a:hover {
     flex-basis: 100%;
   }
 
-  .footer-links {
-    flex: 1 1 140px;
-  }
-
   .footer-images-wrap {
     flex: 1 1 296px;
   }
@@ -1303,12 +1299,8 @@ footer li a:hover {
     font-size: 14px;
   }
 
-  .footer-layout {
-    gap: 40px 24px;
-  }
-
   .footer-links {
-    flex: 1 1 calc(50% - 12px);
+    flex: 0 1 150px;
   }
 
   .footer-images-wrap {
@@ -1525,5 +1517,8 @@ footer li a:hover {
   .footer-images img,
   .show-more {
     height: 62px;
+  }
+  .footer-links {
+    flex: 0 0 135px;
   }
 }
